@@ -1,0 +1,3 @@
+insert into configuration(groupname,name,value) values('HEADER','x-rapidapi-key','e0770f7606mshf73bea1e57fbe09p1f4902jsne7828cce893b');
+insert into configuration(groupname,name,value) values('HEADER','x-rapidapi-host','apidojo-yahoo-finance-v1.p.rapidapi.com');
+insert into configuration(groupname,name,value) values('URL','GET_QUOTE_URL','https://apidojo-yahoo-finance-v1.p.rapidapi.com/market/v2/get-quotes?region={}&symbols={}');

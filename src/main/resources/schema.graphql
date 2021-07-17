@@ -1,0 +1,18 @@
+type Query {
+    getBook(id:Int):Book
+    getBooks:[Book]
+}
+
+type Book {
+    id:Int
+    name:String
+    pages:Int
+    author:Author
+}
+
+type Author {
+    id:Int
+    name:String
+    age:Int
+    address:String
+}
